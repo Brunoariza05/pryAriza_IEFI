@@ -23,7 +23,7 @@ namespace pryAriza_IEFI
         private void frmAuditoria_Load(object sender, EventArgs e)
         {
             lstDatosLogin.Items.Clear();
-
+            
             try
             {
                 string consulta = "SELECT * FROM Auditoria";
