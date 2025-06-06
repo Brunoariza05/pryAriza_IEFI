@@ -18,7 +18,7 @@ namespace pryAriza_IEFI
             InitializeComponent();
         }
 
-        OleDbConnection conexion = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\bruno\OneDrive\Documentos\Visual Studio 2022\proyectos\pryAriza_IEFI\bin\Debug\AuditoriaBD.mdb");
+        OleDbConnection conexion = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=..\\..\\baseDeDatos\\AuditoriaBD.mdb");
 
         private void frmAuditoria_Load(object sender, EventArgs e)
         {
